@@ -27,7 +27,7 @@
 .bar{
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 197, 197) ;
+    background-color: #FFEBD8;
 }
 
 .bg{
@@ -46,8 +46,12 @@
     gap:2rem;
 }
 
+.pic img{
+    width: 50%;
+}
+
 .frist{
-    background-color: rgb(255, 197, 197);
+    background-color: #FFEBD8;
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -143,7 +147,7 @@
 }
 
 .all{
-    background-color: #DCBFFF;;
+    background-color: #C7DCA7;
 }
 
 
@@ -163,7 +167,7 @@
 }
 
 .pici{
-    background-color:aliceblue;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     border-top-right-radius: 15px;
@@ -172,7 +176,7 @@
 }
 
 .diffco{
-    background-color: antiquewhite ;
+    background-color:  #FFEBD8;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -180,7 +184,7 @@
 .none{
     display: flex;
     justify-content: center;
-    background-color: #9BBEC8;
+    background-color: #f1f3f3;
 }
 
 .between{
@@ -192,8 +196,18 @@
     padding:30px
 }
 
+.one img{
+    width: 50%;
+    margin-left: 150px;
+}
+
 .tree{
     padding:20px
+}
+
+.tree img{
+    width: 500px;
+    margin-right: 10px;
 }
 .two p{
     width: 400px;
@@ -236,7 +250,7 @@
     gap:14rem   
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
      
 .navbar ul{
     display: flex;
