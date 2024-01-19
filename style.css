@@ -103,6 +103,10 @@
     padding:40px;
 }
 
+div .gambar{
+    background-color: #FFEBD8;
+}
+
 .gambar img{
     height: 400px;
     width: 500px;
@@ -273,11 +277,11 @@
 .bar{
     display: flex;
     justify-content: center;
-    background-color: #F3B664;
+    background-color: #FFEBD8;
 }
 
 .bg{
-    background-color: aqua;
+    background-color: #f1f3f3;
     justify-content: space-between;
     padding: 25px;
     width: 650px;
@@ -289,8 +293,8 @@
 
 
 .frist{
-    background-color: #F3B664;
-    display:grid;
+    background-color: #FFEBD8;
+    display: grid;
     justify-content: center;
 }
 
@@ -305,7 +309,7 @@
     height: 30px;
     width: 200px;
     border-radius: 15px;
-    background-color: aqua;
+    background-color: #f1f3f3;
     box-shadow: 0px 0px 10px 0px white;
     cursor: pointer;
     opacity: 1;
@@ -390,11 +394,11 @@
 }
 
 .second{
-    background-color: antiquewhite;
+    background-color: #f1f3f3;
 }
 
 .all{
-    background-color: #DCBFFF;;
+    background-color: #C7DCA7;
 }
 
 .alll{
@@ -430,7 +434,7 @@
 .none{
     display: grid;
     justify-content: center;
-    background-color: #9BBEC8;
+    background-color: #f1f3f3;
 }
 
 .between{
@@ -506,7 +510,7 @@
 
 }
 
-@media screen and (max-width:480px){
+@media screen and (width:480px){
     
     .navbar ul{
         display: flex;
@@ -529,11 +533,11 @@
     .bar{
         display: flex;
         justify-content: center;
-        background-color: #F3B664;
+        background-color: #f1f3f3;
     }
     
     .bg{
-        background-color: aqua;
+        background-color: #f1f3f3;
         justify-content: space-between;
         padding: 25px;
         width: 650px;
@@ -545,7 +549,7 @@
     
     
     .frist{
-        background-color: #F3B664;
+        background-color: #FFEBD8;
         display:grid;
         justify-content: center;
     }
